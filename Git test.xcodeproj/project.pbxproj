@@ -21,6 +21,7 @@
 		A13540D919D98A970064912B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13540BB19D98A960064912B /* UIKit.framework */; };
 		A13540E119D98A970064912B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A13540DF19D98A970064912B /* InfoPlist.strings */; };
 		A13540E319D98A970064912B /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13540E219D98A970064912B /* Git_testTests.m */; };
+		A13540EE19D994260064912B /* GTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A13540ED19D994260064912B /* GTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A13540DE19D98A970064912B /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		A13540E019D98A970064912B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A13540E219D98A970064912B /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		A13540EC19D994260064912B /* GTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTest.h; sourceTree = "<group>"; };
+		A13540ED19D994260064912B /* GTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				A13540CC19D98A960064912B /* ViewController.h */,
 				A13540CD19D98A960064912B /* ViewController.m */,
 				A13540CF19D98A960064912B /* Images.xcassets */,
+				A13540EC19D994260064912B /* GTTest.h */,
+				A13540ED19D994260064912B /* GTTest.m */,
 				A13540BE19D98A960064912B /* Supporting Files */,
 			);
 			path = "Git test";
@@ -251,6 +256,7 @@
 			files = (
 				A13540CE19D98A960064912B /* ViewController.m in Sources */,
 				A13540C819D98A960064912B /* AppDelegate.m in Sources */,
+				A13540EE19D994260064912B /* GTTest.m in Sources */,
 				A13540C419D98A960064912B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
